@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* DoughnutCard */
+.doughnut-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.doughnut-container .absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.doughnut-container .absolute h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #c0c0c0;
+  text-align: center;
+  margin: 0;
+}
+
+.doughnut-container .absolute h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.card-container {
+  padding: 15px;
+}
+
+.card-container footer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-container footer .percentage {
+  margin-right: 10px;
+}
+
+.card-container footer .current-value {
+  color: rgba(0, 0, 0, 0.3);
+}
